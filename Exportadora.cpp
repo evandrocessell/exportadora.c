@@ -7,7 +7,7 @@ int main(void) {
     char destino;
     float valorImportacao, imposto = 0;
 
-    printf("Importaremos para a Alemanha (A), Espanha (E) ou It·lia (I)?: ");
+    printf("Importaremos para a Alemanha (A), Espanha (E) ou It√°lia (I)?: ");
     scanf(" %c", &destino);
 
     printf("Qual o valor que vamos exportar?: ");
@@ -28,15 +28,9 @@ int main(void) {
             return 1; 
     }
 
-    printf("O valor da importaÁ„o com imposto ser· de: R$ %.2f\n",
+    printf("O valor da importa√ß√£o com imposto ser√° de: R$ %.2f\n",
            valorImportacao + (valorImportacao * imposto));
 
     return 0;
 }
-
-
-
-
-
-//printf("O imposto para a categoria %c È: R$ %.2f\n", categoria, imposto);
 
